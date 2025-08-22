@@ -66,3 +66,60 @@ It addresses the challenge of **language barriers in healthcare** by providing a
 🌍 Translated Transcript
    ↓ (SpeechSynthesis API - TTS)
 🔊 Spoken Output in Target Language
+```
+---
+# ⚙️ Setup & Installation
+
+## 🛠 Clone Repository
+```bash
+git clone https://github.com/<your-username>/healthcare-translator.git
+cd healthcare-translator
+```
+## 📦 Install Dependencies
+```bash
+npm install
+```
+## 🔑 Add Environment Variables
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
+⚠️ Note: This file is ignored by Git (.gitignore).
+## ▶️ Run Development Server
+```bash
+npm run dev
+```
+Open the app at 👉 http://localhost:3000
+## 🔐 Security & Privacy
+- API key is never exposed to the frontend.
+- .env.local is ignored by Git (safe for local dev).
+- On Vercel, set OPENAI_API_KEY via Project → Settings → Environment Variables.
+- Disclaimer warns users not to enter PHI (Protected Health Information).
+- HTTPS auto-enabled on Vercel.
+## 📦 Deployment on Vercel
+- Push code to GitHub or import project from local.
+- Import repo into Vercel Dashboard.
+- Add environment variable:
+```text
+KEY: OPENAI_API_KEY  
+VALUE: your_openai_api_key_here
+```
+- Deploy → Get live demo link.
+## 📹 Deliverables
+- Live Prototype Link → Vercel demo URL.
+- GitHub Repository → Full code with documentation.
+- Documentation → README.md + optional USER_GUIDE.md + PDF.
+- Demo Recording → OBS/Loom video of usage.
+## 📖 Usage Guide
+- Click 🎤 Start → Speak into the microphone.
+- Transcript appears in Original Transcript panel.
+- Select Target Language from dropdown.
+- Click 🌍 Translate → Translation appears in the second panel.
+- Click 🔊 Speak → Browser reads translated text aloud.
+## ⚠ Limitations
+- Web Speech API may have limited medical vocabulary recognition.
+- Accuracy depends on internet connection + browser support.
+- Prototype only — not production-ready for clinical use.
+- Tested on Chrome/Edge desktop + Chrome mobile.
+## 👨‍💻 Author
+Haseeb Amjad
+Pre-interview Assignment — NAO Medical (2025)
