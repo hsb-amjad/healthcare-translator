@@ -28,7 +28,14 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        {/* Disclaimer Footer */}
+        <footer className="fixed bottom-0 left-0 w-full bg-yellow-100 text-yellow-800 text-center py-2 text-sm border-t">
+          ⚠ Prototype only. Do not enter personal health information.
+        </footer>
       </body>
     </html>
   );
 }
+
+
