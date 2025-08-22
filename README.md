@@ -121,5 +121,4 @@ VALUE: your_openai_api_key_here
 - Prototype only — not production-ready for clinical use.
 - Tested on Chrome/Edge desktop + Chrome mobile.
 ## 👨‍💻 Author
-Haseeb Amjad
-Pre-interview Assignment — NAO Medical (2025)
+Haseeb Amjad - Pre-interview Assignment — NAO Medical (2025)
